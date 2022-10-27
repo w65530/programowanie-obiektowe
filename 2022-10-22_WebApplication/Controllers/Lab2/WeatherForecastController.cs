@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using _2022_10_22_WebApplication.Services;
+using _2022_10_22_WebApplication.Services.Lab2;
 
-namespace _2022_10_22_WebApplication.Controllers
+namespace _2022_10_22_WebApplication.Controllers.Lab2
 {
     [ApiController]
     [Route("[controller]/[action]")]

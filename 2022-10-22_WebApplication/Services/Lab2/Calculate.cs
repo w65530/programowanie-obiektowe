@@ -1,4 +1,4 @@
-﻿namespace _2022_10_22_WebApplication.Services
+﻿namespace _2022_10_22_WebApplication.Services.Lab2
 {
     public class Calculate
     {
