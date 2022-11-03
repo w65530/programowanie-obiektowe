@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f0ZDdLYU5K25AyxqIGM7e6rbyyXsxpId+s23hWFwmAzQSbC18DMyNkULmdS/3JM2ABLrs6Q6+OmPJyrrR5FqhA==",
+  "dgSpecHash": "9HP4gnaH70EJb6kI40zG6Ge4UMY8NMzRT3Ou+fY+2ZsCF3D4yU4TMe9xAH/ws7V/OX21uFnue/ZEX5Z4fm0E+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakub\\Visual Studio Projects\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
+  "projectFilePath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakub\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jakub\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakub\\Visual Studio Projects\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
       "projectName": "2022-10-22_WebApplication",
-      "projectPath": "C:\\Users\\jakub\\Visual Studio Projects\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
+      "projectPath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-10-22_WebApplication\\2022-10-22_WebApplication.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakub\\Visual Studio Projects\\2022-10-22_WebApplication\\obj\\",
+      "outputPath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-10-22_WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
