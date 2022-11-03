@@ -19,7 +19,7 @@
             int Area = Width * Height * (int)x;
             return Area;
         }
-        public int GetShorterSide()
+        public virtual int GetShorterSide()
         {
             return Width > Height ? Height : Width;
             //return new List<int>() { Width, Height }.Min();
