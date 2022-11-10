@@ -5,7 +5,7 @@ namespace _2022_10_22_WebApplication.Controllers.Lab3
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class ShapeController : Controller
+    public class ShapeController : ControllerBase
     {
         [HttpGet]
         public int GetArea()
@@ -19,6 +19,12 @@ namespace _2022_10_22_WebApplication.Controllers.Lab3
             var rectangle = new Rectangle(3, 4);
             var rectangle2 = new Rectangle(4, 5);
             return rectangle + rectangle2;
+        }
+        [HttpGet]
+        public int GetShorterSide()
+        {
+            var rectangle = new Rectangle(3, 4);
+            return rectangle.GetShorterSide();
         }
     }
 }
