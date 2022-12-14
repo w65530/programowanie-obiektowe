@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\MVC_LAB.csproj": {}
+    "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\MVC_LAB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\MVC_LAB.csproj": {
+    "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\MVC_LAB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\MVC_LAB.csproj",
+        "projectUniqueName": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\MVC_LAB.csproj",
         "projectName": "MVC_LAB",
-        "projectPath": "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\MVC_LAB.csproj",
+        "projectPath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\MVC_LAB.csproj",
         "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\obj\\",
+        "outputPath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",

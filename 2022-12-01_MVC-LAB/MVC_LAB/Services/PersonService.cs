@@ -10,19 +10,41 @@ namespace MVC_LAB.Services
         {
             _context = context;
         }
+        public PersonModel GetPerson(int id)
+        {
+            var person = _context.Persons.FirstOrDefault(x => x.ID == id);
+            return person ?? new PersonModel();
+        }
         public List<PersonModel> GetPersons()
         {
             return _context.Persons.ToList();
         }
-        public void CreatePerson(int id, string name, string city, GenderEnum gender)
+        public void CreatePerson(string name, string city, GenderEnum gender)
         {
-            _context.Persons.Add(new PersonModel()
-            { 
-                ID = id,
-                Name = name,
-                City = city,
-                Gender = gender
-            });
+            var lastID = _context.Persons.OrderByDescending(x => x.ID).FirstOrDefault()?.ID;
+           if(lastID != null)
+            {
+                _context.Persons.Add(new PersonModel()
+                {
+                    ID = (int)lastID + 1,
+                    Name = name,
+                    City = city,
+                    Gender = gender
+                });
+            }
+            _context.SaveChanges();
+        }
+        public void EditPerson(long id, string name, string city, GenderEnum gender)
+        {
+            var person = _context.Persons.FirstOrDefault(x => x.ID == id);
+            if (person != null)
+            {
+                person.Name = name;
+                person.City = city;
+                person.Gender = gender;
+                _context.Persons.Update(person);
+                _context.SaveChanges();
+            }
             _context.SaveChanges();
         }
     }

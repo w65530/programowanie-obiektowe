@@ -1,12 +1,9 @@
-﻿@{
+﻿@model MVC_LAB.Models.Person.CreatePersonViewModel
+@{
 	ViewData["title"] = "Create Person";
 }
 
 <form method="post" asp-controller="Person" asp-action="CreateNewPerson">
-	<div class="form-group">
-		<label for="id">ID</label>
-		<input type="number" class="form-control" id="id" placeholder="ID" name="id" />
-	</div>
 	<div class="form-group">
 		<label for="name">Name</label>
 		<input type="text" class="form-control" id="name" placeholder="Name" name="name" />
@@ -17,7 +14,7 @@
 	</div>
 	<div class="form-group">
 		<label for="gender">Gender</label>
-		<input type="number" class="form-control" id="gender" placeholder="Gender" name="gender" />
+		<select class="form-control" id="gender" name="gender" required asp-items="@Model.Gender"></select>
 	</div>
 	<button class="btn btn-primary">Submit</button>
 </form>

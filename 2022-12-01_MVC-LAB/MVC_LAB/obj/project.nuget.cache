@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S0UraVdrHCdz3WmnEb4hDQ3ZUkn+ZFJVrwrWfZ2Sa2tOmv6P/fufzYBy1wEUWHqHTZkhUxkFZTJDWMegpTxrVw==",
+  "dgSpecHash": "A+7kTFtMbTmx9sccm5FSxkcmv2UHrCN9A53IfHpUZJ2TfP6C3KT+++HYag8tkbC81pHotgTtzHPj0fDh7UmVdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakub\\Visual Studio Projects\\MVC_LAB\\MVC_LAB\\MVC_LAB.csproj",
+  "projectFilePath": "C:\\Users\\jakub\\Visual Studio Projects\\programowanie-obiektowe\\2022-12-01_MVC-LAB\\MVC_LAB\\MVC_LAB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakub\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jakub\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
